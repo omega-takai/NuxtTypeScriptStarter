@@ -1,5 +1,7 @@
 # Nuxt TypeScript Starter
 
+![DEPLOYMENT](https://github.com/t--takai/NuxtTypeScriptStarter/workflows/DEPLOYMENT/badge.svg)
+
 > Nuxt.js TypeScript project
 
 ## Build Setup
