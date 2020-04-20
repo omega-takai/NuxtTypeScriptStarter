@@ -3,6 +3,13 @@
   "description": "Nuxt.js TypeScript project",
   "version": "2.12.2",
   "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "generate:gh-pages": "cross-env BASE_DIR=/NuxtTypeScriptStarter/ nuxt-ts generate"
+  },
   "dependencies": {
     "@nuxtjs/axios": "5.9.7",
     "@nuxt/typescript-runtime": "0.4.5",
@@ -10,13 +17,8 @@
     "nuxt-property-decorator": "2.5.1",
     "vuex-class": "0.3.2"
   },
-  "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
-  },
   "devDependencies": {
-    "@nuxt/typescript-build": "0.6.5"
+    "@nuxt/typescript-build": "0.6.5",
+    "cross-env": "^7.0.2"
   }
 }

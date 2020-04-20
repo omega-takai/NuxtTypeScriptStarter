@@ -1,3 +1,12 @@
+// SEE: https://ja.nuxtjs.org/faq/github-pages/
+const routerBase = process.env.BASE_DIR
+  ? {
+      router: {
+        base: process.env.BASE_DIR,
+      },
+    }
+  : {}
+
 export default {
   env: {},
   head: {
@@ -8,7 +17,7 @@ export default {
       { hid: "description", name: "description", content: "Nuxt.js TypeScript project" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+      { rel: "icon", type: "image/x-icon", href: `${process.env.BASE_DIR || '/'}favicon.ico` }
     ]
   },
   loading: { color: "#3B8070" },
@@ -18,5 +27,10 @@ export default {
   modules: [
     "@nuxtjs/axios",
   ],
-  axios: {}
+  axios: {},
+  generate: {
+    fallback: true, // '404.html' を使用したい場合
+    dir: 'public',
+  },
+  ...routerBase,
 }
