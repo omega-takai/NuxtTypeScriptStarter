@@ -1,4 +1,4 @@
-# nuxt-type-script-starter
+# Nuxt TypeScript Starter
 
 > Nuxt.js TypeScript project
 
@@ -6,17 +6,32 @@
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn dev
 
 # build for production and launch server
-$ npm run build
-$ npm start
+$ yarn build
+$ yarn start
 
 # generate static project
-$ npm run generate
+$ yarn generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## References
+
+- [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+- [Nuxt TypeScript docs](https://typescript.nuxtjs.org/ja/).
+- [Nuxt Community TypeScript Template](https://github.com/nuxt-community/typescript-template).
+
+***
+
+## TypeScript Examples
+
+- https://github.com/t--takai/vue-ts-realworld-app
+- https://github.com/tokyo-metropolitan-gov/covid19
+- https://github.com/typescript-nuxtjs-boilerplate/typescript-nuxtjs-boilerplate
+- https://github.com/nekochans/nuxt-boilerplate
+- https://github.com/t--takai/NuxtStarter
+- https://github.com/t--takai/vue-storybook-ts
