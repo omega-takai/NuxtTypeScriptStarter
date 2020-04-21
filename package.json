@@ -4,6 +4,7 @@
   "version": "2.12.2",
   "private": true,
   "scripts": {
+    "clean": "rm -rf .nuxt public",
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",

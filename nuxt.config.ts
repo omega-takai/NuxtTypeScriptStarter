@@ -21,6 +21,7 @@ export default {
     ]
   },
   loading: { color: "#3B8070" },
+  srcDir: 'src/',
   css: ["~/assets/css/main.css"],
   build: {},
   buildModules: ["@nuxt/typescript-build"],
