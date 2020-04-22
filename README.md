@@ -23,7 +23,7 @@ $ yarn generate
 
 ## References
 
-- [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+- [Nuxt.js docs](https://nuxtjs.org/guide).
 - [Nuxt TypeScript docs](https://typescript.nuxtjs.org/ja/).
 - [Nuxt Community TypeScript Template](https://github.com/nuxt-community/typescript-template).
 

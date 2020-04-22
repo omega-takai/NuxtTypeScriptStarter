@@ -1,4 +1,5 @@
 export * from './state';
+export * from './device-type';
 
 export interface Person {
   id: number;

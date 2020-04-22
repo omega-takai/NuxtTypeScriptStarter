@@ -32,6 +32,7 @@ export default {
   generate: {
     fallback: true, // '404.html' を使用したい場合
     dir: 'public',
+    devtools: true, // SEE: https://nuxtjs.org/api/configuration-generate#devtools
   },
   ...routerBase,
 }
