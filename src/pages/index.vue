@@ -35,7 +35,7 @@ import { mapState } from 'vuex'
     ...mapState('device-type', ['isMobile', 'isTablet', 'isDesktop'])
   }
 })
-export default class extends Vue {
+export default class PagesIndex extends Vue {
   @State people!: Person[]
 }
 </script>
