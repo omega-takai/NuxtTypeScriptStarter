@@ -19,7 +19,7 @@
     "vuex-class": "0.3.2"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "0.6.6",
+    "@nuxt/typescript-build": "1.0.0",
     "cross-env": "7.0.2"
   }
 }
