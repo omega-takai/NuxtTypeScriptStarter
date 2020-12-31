@@ -1096,7 +1096,7 @@
     rc9 "^1.2.0"
     std-env "^2.2.1"
 
-"@nuxt/types@^2.14.9":
+"@nuxt/types@2.14.9":
   version "2.14.9"
   resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.14.9.tgz#fdfcb3f4f9eae64441e4026dac9d37a3a9afa71f"
   integrity sha512-NXj25UrzeZmeJnfUyDH1qOwQoWC7UyUwli92QbczIzbeHbJSnrLKzG4lmHwMrB5Uvb56DxTdrTCrpaBlHMf3ew==
@@ -1120,7 +1120,7 @@
     "@types/webpack-dev-middleware" "^3.7.2"
     "@types/webpack-hot-middleware" "^2.25.3"
 
-"@nuxt/typescript-build@^2.0.3":
+"@nuxt/typescript-build@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@nuxt/typescript-build/-/typescript-build-2.0.3.tgz#338094f1bbadc21a59942c0aa0e272dff5a3f6a8"
   integrity sha512-iqxUV6sv86sat9VIlJyjL38oP+OkLg+gOr7uvYYRcYYGL6h/1OSWWIawyVsc4/RX9UGOy3JNj+BcvEo/7SkAUA==
