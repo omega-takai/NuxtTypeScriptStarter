@@ -14,12 +14,12 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "2.0.0",
     "@nuxtjs/axios": "5.12.4",
-    "nuxt": "2.14.7",
+    "nuxt": "2.14.12",
     "nuxt-property-decorator": "2.8.8",
     "vuex-class": "0.3.2"
   },
   "devDependencies": {
-    "@nuxt/types": "2.14.9",
+    "@nuxt/types": "2.14.12",
     "@nuxt/typescript-build": "2.0.3",
     "cross-env": "7.0.3"
   }
