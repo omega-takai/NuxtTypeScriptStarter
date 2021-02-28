@@ -12,7 +12,7 @@
     "generate:gh-pages": "cross-env BASE_DIR=/NuxtTypeScriptStarter/ nuxt-ts generate"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "2.0.1",
+    "@nuxt/typescript-runtime": "2.0.2",
     "@nuxtjs/axios": "5.12.5",
     "nuxt": "2.14.12",
     "nuxt-property-decorator": "2.9.1",
