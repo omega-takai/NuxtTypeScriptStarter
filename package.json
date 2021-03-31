@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@nuxt/types": "2.15.3",
-    "@nuxt/typescript-build": "2.0.6",
+    "@nuxt/typescript-build": "2.1.0",
     "cross-env": "7.0.3"
   }
 }
